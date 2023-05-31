@@ -4,6 +4,7 @@ import os
 
 
 def factorial(n):
+    print('factorial({})'.format(n))
     if n == 0:
         return 1
     else:

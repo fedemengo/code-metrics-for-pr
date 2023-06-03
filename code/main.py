@@ -4,6 +4,7 @@ import os
 
 
 def shuuldnt_trigger():
+    print("This shouldn't triggered")
     exit(1)
 
 

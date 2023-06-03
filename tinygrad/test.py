@@ -1,4 +1,4 @@
 
 def trigger():
-    prnt("Triggered")
+    prnt("Triggered, but not for draft")
     exit(0)

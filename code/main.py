@@ -3,6 +3,10 @@
 import os
 
 
+def shuuldnt_trigger():
+    exit(1)
+
+
 def factorial(n):
     print('factorial({})'.format(n))
     if n == 0:

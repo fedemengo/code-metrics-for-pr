@@ -55,9 +55,9 @@ jobs:
           CODE="$?"
           echo "$EOF" >> "$GITHUB_ENV"
 
-          if [ "$CODE" == "1" ]; then
+          if [ "$CODE" == "0" ]; then
             echo "kudos<<$EOF" >> "$GITHUB_ENV"
-            echo "🎉🎉 This PR decreases the loc in tinygrad, well done!! 🎉🎉" >> "$GITHUB_ENV"
+            echo "🎉🎉 This PR decrease the loc in tinygrad, well done!! 🎉🎉" >> "$GITHUB_ENV"
             echo "$EOF" >> "$GITHUB_ENV"
           fi
 

@@ -3,12 +3,25 @@
 import os
 
 
+def shuuldnt_trigger():
+    print("This shouldn't triggered")
+    exit(1)
+
+
 def factorial(n):
     print('factorial({})'.format(n))
     if n == 0:
         return 1
     else:
         return n * factorial(n-1)
+
+
+def dec2bin(n):
+    print('dec2bin({})'.format(n))
+    if n == 0:
+        return ''
+    else:
+        return dec2bin(n//2) + str(n % 2)
 
 
 if __name__ == '__main__':
